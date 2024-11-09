@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Multiverse"
+version = "0.0.1"
+description = "A Python library to manage and run functions in multiple virtual environments seamlessly."
+readme = "README.md"
+requires-python = ">=3.6"
+license = { text = "MIT" }
+authors = [
+    { name = "Amaury Francou" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["cloudpickle>=1.6.0", "pyyaml>=5.4.1"]
+
+[project.urls]
+Homepage = "https://github.com/amauryfra/Multiverse"
